@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\marvi\\Downloads\\sqldeveloper-24.3.1.347.1826-no-jre\\sqldeveloper\\jdbc\\lib\\ojdbc11.jar",
+        "c:\\Users\\marvi\\Downloads\\sqldeveloper-24.3.1.347.1826-no-jre\\sqldeveloper\\jlib\\oraclepki.jar",
+        "c:\\Users\\marvi\\Downloads\\sqldeveloper-24.3.1.347.1826-no-jre\\sqldeveloper\\modules\\oracle.osdt\\osdt_core.jar",
+        "c:\\Users\\marvi\\Downloads\\sqldeveloper-24.3.1.347.1826-no-jre\\sqldeveloper\\modules\\oracle.osdt\\osdt_cert.jar"
+    ]
+}
