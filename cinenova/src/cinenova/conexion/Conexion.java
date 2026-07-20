@@ -8,9 +8,8 @@ import java.io.File;
 public class Conexion {
     
     private static final String RUTA_PROYECTO = System.getProperty("user.dir");
-    private static final String RUTA_WALLET = (RUTA_PROYECTO + File.separator + "Wallet_CineNova").replace('\\', '/');
-    
-    // ¡Ojo! Le quitamos el ?TNS_ADMIN=... de aquí al final
+    private static final String RUTA_WALLET = (RUTA_PROYECTO + File.separator + "Wallet_CineNova").replace('\\', '/'); 
+
     private static final String URL = "jdbc:oracle:thin:@cinenova_high"; 
     private static final String USUARIO = "ADMIN"; 
     private static final String CONTRASENA = "Contrasena2026*";
@@ -18,7 +17,7 @@ public class Conexion {
     public static Connection getConexion() {
         Connection conexion = null;
         try {
-            // Le pasamos la ruta de la Wallet directamente al sistema de Java
+
             System.setProperty("oracle.net.tns_admin", RUTA_WALLET);
             
             Class.forName("oracle.jdbc.driver.OracleDriver");
